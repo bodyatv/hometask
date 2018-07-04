@@ -1,0 +1,34 @@
+header{
+        background-color:#668cff;
+        display: flex;
+        align-items: center;
+        color: #f2f2f2;
+        justify-content: space-around;
+        
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.actualNav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 50%;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.icons{
+    font-size: 40px;
+    margin-top: 2%;/*not good*/
+}
+.icons i:hover{
+    color: #f06a35;
+}
+
+.icons .fa-search{
+    position: relative;
+    left: 10%;
+}

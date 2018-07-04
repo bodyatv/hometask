@@ -1,0 +1,100 @@
+aside{
+    width:25%;
+    position: absolute;
+    left: 75%;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info img{
+    margin-top: 20px;
+    width: 85%;
+    border: 5px solid #668cff;
+}
+
+#info h1{
+    text-align: center;
+    width: 90%;
+    background-color: #f2f2f2;
+    border: 5px solid #668cff;
+    color: black;
+} 
+
+#social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}
+#social i:hover{
+    color: #668cff;
+}
+
+#subscribe form{
+    margin-top: 20px;
+    padding: 5px;
+}
+#subscribe input{
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    background-color: #668cff;
+    border:1px solid #668cff;
+    margin-top: 5px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+::placeholder{
+    color: #f2f2f2;
+
+}
+#subscribe button{
+    background-color: #668cff;
+    border: 1px solid  #668cff;
+    color:#f2f2f2;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#search input{
+    display: flex;
+    margin: 25px auto;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#sideColumns {
+    border: 5px solid #668cff;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+}
+
+#sideColumns p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-size: 20px;
+}
+#userCo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#user img{
+    margin-top: 20%;
+    border-radius: 50%;
+    width: 90%; 
+}
